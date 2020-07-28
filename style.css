@@ -1,0 +1,146 @@
+html,body{
+    background-color:white;
+}
+#outerDiv
+{
+    width: 40%;
+    height: 60vh;
+    box-shadow: 4px -4px 10px rgb(133, 7, 7);
+    border-radius: 5px;
+    border: 1px 4px outset rgb(134, 10, 10);
+    background-color: rgb(250, 124, 78, 0.05);
+    margin: 2% 5% 5% 25%;
+    padding: 1% 5% 5% 5%;
+    position: relative;
+}
+
+#score
+{
+    color: black(255, 255, 255);
+    width: 7vw;
+    margin-top: 2vh;
+    font-size: 1.5em;
+    position: absolute;
+    right: 5vw;
+    padding: 10px;
+    background-color: rgb(250, 200, 247);
+    box-shadow: 3px 3px 1px rgb(14, 5, 15);
+}
+#timeRem
+{
+    display: none;
+}
+#candyContainer
+{
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0px 10px;
+    text-shadow: 2px 2px 3px rgb(252, 251, 250);
+    font-family: cursive;
+    width: 96%;
+    height: 42vh;
+    background-color: rgb(255, 255, 255);
+    margin-top:11vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px outset rgb(235, 214, 230);
+    position: relative;
+    overflow: hidden;
+}
+#candyContainer:hover{
+    cursor:crosshair ;
+}
+
+#instr
+{
+    color: white;
+    text-align: center;
+    padding: 5px 11px;
+    width: 50%;
+    line-height: 5.5vh;
+    height:6vh;
+    margin: auto;
+    box-shadow: 2px 2px 10px rgb(155, 27, 116);
+    margin-top: 20px;
+    background-color: rgb(84, 6, 88);
+    border: 1px inset wheat;
+    font-size: 2vw;
+}
+
+#submit
+{
+    color: black;
+    font-size: 2vw;
+    width:15vw;
+    right: 44vw;
+    position: absolute;
+    margin-top: -12vw;
+    background-color: rgb(250, 200, 247);
+    box-shadow: 3px 3px 1px rgb(14, 5, 15);
+    padding: 10px;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: rgb(129, 15, 114,0.5);
+    cursor: pointer;
+}
+#chancesLeft
+{
+    text-align: center;
+    width: 8vw;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 2vh;
+    font-size: 1.5em;
+    position: absolute;
+    right: 35.5vw;
+    background-color: rgb(250, 200, 247);
+    box-shadow: 3px 3px 1px rgb(14, 5, 15);
+    padding: 10px;
+    display: none;
+}
+#timeRem
+{
+    width: 14vw;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 2vh;
+    font-size: 1.5em;
+    position: absolute;
+    right: 17vw;
+    background-color: rgb(250, 200, 247);
+    box-shadow: 3px 3px 1px rgb(14, 5, 15);
+    padding: 10px;
+  /* display: none;*/
+}
+#over
+{
+    height: 41.5vh;
+    width:52vw;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-size: 2.7vw;
+    color: rgb(253, 253, 253);
+    background: linear-gradient(rgb(23,45,66), rgb(222,34,134));
+    border-radius: 7px;
+    position: absolute;
+    top: 28vh;
+    left:24vw;
+    box-shadow: 4px 4px 15px rgb(199, 155, 219);
+    z-index: 1;
+    display: none;
+}
+.hearts
+{
+    width: 1em;
+    height: 1em;
+    line-height: 12px;
+    margin: 0px 3px;
+}
+.candy
+{
+    display: none;
+    position: absolute;
+}

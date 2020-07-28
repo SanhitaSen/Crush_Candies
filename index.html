@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crush the Candy!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="#" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div id="instr">Crush the Candies!</div>
+
+    <div id="outerDiv">
+        <div id="score">Score: <span id="plusScore">0</span></div>
+        <div id="chancesLeft"></div>
+        <div id="timeRem">Time Remaining:  <span id="time">10</span></div>
+        <div id="candyContainer"> 
+            <img id="candy1" class="candy">
+        </div>
+        
+        </div>
+        <div id = "but"><button id="submit" >Start Game</button></div>
+      
+    <div id="over">
+        <p>Game over!</p>
+        <p>Your score is: <span id="fScore">0</span></p>
+    </div>
+
+    <audio id="crushing">
+        <source src="/Project-FruitSlice/Audio/neckSnap.mp3"></source>
+        <source src="/Project-FruitSlice/Audio/neckSnap.ogg"></source>
+
+    </audio>
+    <script type="text/javascript" src="jQUERY.js"></script>
+</body>
+</html>
