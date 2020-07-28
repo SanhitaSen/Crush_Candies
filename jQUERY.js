@@ -82,7 +82,7 @@ let action2; //used for counterSetting
    if (counter!=0){
    for (let i=0;i<chancesLeft;i++)
    {
-      $("#chancesLeft").append('<img src="/Project-FruitSlice/Images/heart.png" class="hearts">');
+      $("#chancesLeft").append('<img src="Images/heart.png" class="hearts">');
    }
    }
  }
@@ -132,7 +132,7 @@ let action2; //used for counterSetting
  function chooseCandy()
  {
     let  i=Math.floor(Math.random()*11);
-   $("#candy1").attr('src', '/Project-FruitSlice/Images/'+ candies[i]+'.png');
+   $("#candy1").attr('src','Images/'+ candies[i]+'.png');
    console.log(i);
  }
 
