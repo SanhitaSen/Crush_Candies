@@ -1,17 +1,5 @@
-//Click on Start reset button, check if we are playing. 
-//If playing, then reload the page. 
-//Else, 1. Show lives left box
- //       2. Button change to: "Reset Game"
- //     3. a. Create a random fruit 
-    //     b. Move fruit down by one(or random) step every 30 seconds.
- //Check if fruit is too low - if not too low, the move it down another step, i.e, repeat 3b.
- //If candy too low, ask if any chances left. If ye, decrease it by one, else show game over.  
- //
- //
 
- //Slice a candy: 
- //Sound play and explode fruit. 
- let play = false;
+let play = false;
  let score;
  let chancesLeft;
  let step;
@@ -21,7 +9,6 @@ let action2; //used for counterSetting
  let candies=['candy1','candy2','candy3','candy4','candy5','candy6','candy8','candy9','candy10','candy11','candy12'];
  $(function()
  {
-    //window.alert($("#candyContainer").width());
    $("#submit").click(function()
    {
      // If playing:
@@ -82,7 +69,7 @@ let action2; //used for counterSetting
    if (counter!=0){
    for (let i=0;i<chancesLeft;i++)
    {
-      $("#chancesLeft").append('<img src="Images/heart.png" class="hearts">');
+      $("#chancesLeft").append('<img src="./Images/heart.png" class="hearts">');
    }
    }
  }
@@ -132,7 +119,7 @@ let action2; //used for counterSetting
  function chooseCandy()
  {
     let  i=Math.floor(Math.random()*11);
-   $("#candy1").attr('src','Images/'+ candies[i]+'.png');
+   $("#candy1").attr('src','./Images/'+ candies[i]+'.png');
    console.log(i);
  }
 
